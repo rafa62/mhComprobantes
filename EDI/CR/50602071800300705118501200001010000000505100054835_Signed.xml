@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FacturaElectronica xmlns="https://tribunet.hacienda.go.cr/docs/esquemas/2017/v4.2/facturaElectronica">
+  <Clave>50602071800300705118501200001010000000505100054835</Clave>
+  <NumeroConsecutivo>01200001010000000505</NumeroConsecutivo>
+  <FechaEmision>2018-07-02T15:02:49.960</FechaEmision>
+  <Emisor>
+    <Nombre>CFIA</Nombre>
+    <Identificacion>
+      <Tipo>02</Tipo>
+      <Numero>3007051185</Numero>
+    </Identificacion>
+    <NombreComercial>Colegio Federado de Ingenieros y de Arquitectos de Costa Rica</NombreComercial>
+    <Ubicacion>
+      <Provincia>1</Provincia>
+      <Canton>18</Canton>
+      <Distrito>01</Distrito>
+      <Barrio>16</Barrio>
+      <OtrasSenas>Curridabat, contiguo Indoor Club</OtrasSenas>
+    </Ubicacion>
+    <Telefono>
+      <CodigoPais>506</CodigoPais>
+      <NumTelefono>21032200</NumTelefono>
+    </Telefono>
+    <CorreoElectronico>factura@cfia.cr</CorreoElectronico>
+  </Emisor>
+  <Receptor>
+    <Nombre>VERDORAMA S.A.</Nombre>
+    <Identificacion>
+      <Tipo>02</Tipo>
+      <Numero>3101623674</Numero>
+    </Identificacion>
+    <CorreoElectronico>intus13@verdorama.biz</CorreoElectronico>
+  </Receptor>
+  <CondicionVenta>02</CondicionVenta>
+  <PlazoCredito>5</PlazoCredito>
+  <MedioPago>02</MedioPago>
+  <DetalleServicio>
+    <LineaDetalle>
+      <NumeroLinea>1</NumeroLinea>
+      <Codigo>
+        <Tipo>01</Tipo>
+        <Codigo>2852</Codigo>
+      </Codigo>
+      <Cantidad>1</Cantidad>
+      <UnidadMedida>Sp</UnidadMedida>
+      <UnidadMedidaComercial>Servicio Profesional</UnidadMedidaComercial>
+      <Detalle> Servicio de Soporte  INTUS Virtual  con contrato mensual</Detalle>
+      <PrecioUnitario>33100.0000</PrecioUnitario>
+      <MontoTotal>33100.0000</MontoTotal>
+      <MontoDescuento>0.00000</MontoDescuento>
+      <NaturalezaDescuento>
+      </NaturalezaDescuento>
+      <SubTotal>33100.0000</SubTotal>
+      <MontoTotalLinea>33100.0000</MontoTotalLinea>
+    </LineaDetalle>
+  </DetalleServicio>
+  <ResumenFactura>
+    <CodigoMoneda>CRC</CodigoMoneda>
+    <TipoCambio>0.00000</TipoCambio>
+    <TotalServGravados>0.00000</TotalServGravados>
+    <TotalServExentos>33100.00000</TotalServExentos>
+    <TotalMercanciasGravadas>0.00000</TotalMercanciasGravadas>
+    <TotalMercanciasExentas>0.00000</TotalMercanciasExentas>
+    <TotalGravado>0.00000</TotalGravado>
+    <TotalExento>33100.00000</TotalExento>
+    <TotalVenta>33100.00000</TotalVenta>
+    <TotalDescuentos>0.00000</TotalDescuentos>
+    <TotalVentaNeta>33100.00000</TotalVentaNeta>
+    <TotalImpuesto>0.00000</TotalImpuesto>
+    <TotalComprobante>33100.00000</TotalComprobante>
+  </ResumenFactura>
+  <Normativa>
+    <NumeroResolucion>DGT-R-48-2016</NumeroResolucion>
+    <FechaResolucion>20-02-2017 13:22:22</FechaResolucion>
+  </Normativa>
+  <Otros>
+    <OtroTexto>SERVICIO CORRESPONDIENTE AL MES DE JULIO DE 2018</OtroTexto>
+  </Otros>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-a278b16b-6d66-468e-8ac5-7ef3eb5bdb65"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><ds:Reference Id="Reference-8c4eb324-fa43-4694-9c09-1f0579946391" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><ds:Transform Algorithm="http://www.w3.org/TR/1999/REC-xpath-19991116"><ds:XPath>not(ancestor-or-self::Signature)</ds:XPath></ds:Transform></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>LVKcJd4kmm9jlg9DDkkb2yQgaCH4EnScKYUxFvSRe/8=</ds:DigestValue></ds:Reference><ds:Reference Id="ReferenceKeyInfo" URI="#KeyInfoId-Signature-a278b16b-6d66-468e-8ac5-7ef3eb5bdb65"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>1n727PWDD/Q65UMBuL0dcs2luulymY1htoeHpKHEdkU=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-Signature-a278b16b-6d66-468e-8ac5-7ef3eb5bdb65"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>RMK37Z4X1ujni/78Yx6Dp6zdrGCSsX0xXc91V/4QEBM=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="SignatureValue-a278b16b-6d66-468e-8ac5-7ef3eb5bdb65">bIv35m5SRRZssrQdeoOZtyZ2MAckBom12FlocHkC0hUjPmsoGl/S6l2xbEriP203Dgi1YvMDiTJ8IVH07BJu+0YAgutdaD/58FBACiSFft+sg15+YZUXrSehIdyFXjhFB0a420xhcorkT6O2XVoU4j/8eQwCdhKYyuM8QyNce43Sdjx6cAUHGCWDVwO0Vl6OqoATsdLe1BMGuscUWLCQfawqB0Z3q6ZL5gCyvwr4h5/wwuFt3PhQq/Nuc0LCC/7T5tvOBCDDITNKZ8JH5GvAoGoDgBvqYZmwaB4bGX1MseA/93660CdOwWPM0Ab6gh/K+mPToHKydz9qzZoSZq01kQ==</ds:SignatureValue><ds:KeyInfo Id="KeyInfoId-Signature-a278b16b-6d66-468e-8ac5-7ef3eb5bdb65"><ds:X509Data><ds:X509Certificate>MIIFPzCCAyegAwIBAgIGAWJJgobuMA0GCSqGSIb3DQEBCwUAMFoxCzAJBgNVBAYTAkNSMR8wHQYDVQQKDBZNSU5JU1RFUklPIERFIEhBQ0lFTkRBMQwwCgYDVQQLDANER1QxHDAaBgNVBAMME0NBIFBFUlNPTkEgSlVSSURJQ0EwHhcNMTgwMzIxMTcwMTUzWhcNMjAwMzIwMTcwMTUzWjCBmTEZMBcGA1UEBRMQQ1BKLTMtMDA3LTA1MTE4NTELMAkGA1UEBhMCQ1IxGTAXBgNVBAoMEFBFUlNPTkEgSlVSSURJQ0ExDDAKBgNVBAsMA0NQSjFGMEQGA1UEAww9Q09MRUdJTyBGRURFUkFETyBERSBJTkdFTklFUk9TIFkgREUgQVJRVUlURUNUT1MgREUgQ09TVEEgUklDQTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAIJBknV/hcX61MWUvoDhxN72GJ7uX7Qub6/ei9c5kLZgNgibeIAx/NfZB+zLdX3ZNEUbSJBPWrNuyFFvBC99AfbyqFPK9ErrSmUznGqoKdhaWsalVPCrBqwB++vqPyLR2/gBtqgcqLqkLDwOZ7jf/eWQhshCVB0lawfAsyGIB6+kPAgAyFMpLf404SpBRB0hS4Xouc5wl67DsIP4EyGPjXjuWybxAeGuFeDJ5zK56ZDX+eJ9TCJv/fW6lBa6Ec24q/ae8tz3VUDMvix35ZyDrxilyaFEMxUXhE2BawHV4sbU4tR1bfbZKTF7zolObaHfzMwIYtFcu9FHZau2+jBONBECAwEAAaOByjCBxzAfBgNVHSMEGDAWgBQ7bVf11nzpnhACIEHjvRrMz7NOlTAdBgNVHQ4EFgQUecz8w54JS6XGJwkFXXkGZBcizTQwCwYDVR0PBAQDAgbAMBMGA1UdJQQMMAoGCCsGAQUFBwMEMGMGCCsGAQUFBwEBBFcwVTBTBggrBgEFBQcwAoZHaHR0cHM6Ly9wa2kuY29tcHJvYmFudGVzZWxlY3Ryb25pY29zLmdvLmNyL3Byb2QvaW50ZXJtZWRpYXRlLXBqLXBlbS5jcnQwDQYJKoZIhvcNAQELBQADggIBAGKHV/DXorvJfBqhmnY5JXZxaliXLo/g7jsUnHK2rqMsYuBP0qOc91EPxdgqln4t+WW4cNSnY7s1lJVkTvlKY+iyrXYPFZqlZNqX2frkiU1nEFQsEeeeR5YTJFxqIgX7uGZv9gGVYHOI7TAvE8ZmXLqClhJCzb81XBQcT98T4XxzjxISWZX0xMG2ue/pOZjsQZi6bSMWHC4yhmFEsk1uoP5E7ih46RM9ntUGkutj4TsG8WQ8rEOOZPkZtVuRRmFl8TyjSinJNZKDae457Y/TtoxEGt7xAkk0Pw8HXgkt3UMUy2emT+lH3LwQc35KfFPf5zq9CBOFQHl7AP1VDJWMR6DyWPq/6InRhsla7T350qccQGQz/DJ6gvH0ZBZmSGvq4TXqm24RePUo33ea3xKy6LFxOJygG62XaKWXL78GGWhhTweIIo4QuVIunImrZsz0upUFMYdIowa5xJc+N1ptwW/e/6rIRA9wj+IGZ0KfT4TEdOWAXTfHbWRZbi+kETB/mNb7rNS/i40onlyK6D3HKm0FmGM3wPOzTKWiv4jpvbIlAjby/qxX6JcgXQqFYrj8/WDDpnXXIX7Ps9P0fgwXvyGk/VXMFCyrKlm18U5wtCMBAv8PRlwededTEI6ETVxct4o63murfFh2NtsH1TpiBG4WVHqRWC9Lbjde7W5arrrP</ds:X509Certificate><ds:X509Certificate>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</ds:X509Certificate><ds:X509Certificate>MIIFhzCCA2+gAwIBAgIEWKUW7DANBgkqhkiG9w0BAQ0FADBlMQswCQYDVQQGEwJDUjEfMB0GA1UECgwWTUlOSVNURVJJTyBERSBIQUNJRU5EQTEMMAoGA1UECwwDREdUMScwJQYDVQQDDB5DQSBSQUlaIE1JTklTVEVSSU8gREUgSEFDSUVOREEwHhcNMTcwMjE2MDMwNjIzWhcNMzcwMjE2MDMwNjIzWjBlMQswCQYDVQQGEwJDUjEfMB0GA1UECgwWTUlOSVNURVJJTyBERSBIQUNJRU5EQTEMMAoGA1UECwwDREdUMScwJQYDVQQDDB5DQSBSQUlaIE1JTklTVEVSSU8gREUgSEFDSUVOREEwggIiMA0GCSqGSIb3DQEBAQUAA4ICDwAwggIKAoICAQCp0RPooi2Ar6lvFtMMoisW2j6L9DcVwXs44I9nL6ZoHQdYBzldDrEnHjEmQybgVDGsBJIFrdXc0gL9J42lMhO8aKRqtPzVdt/WkwgeFMfMUtkmKsy7FZIK9XWHFrRwAlHrSw7Jt85FeWtgkXdrVsRa14mnDU3TDzW+pfU21WWXcfxJAWsuyIo41ZD5lG39cWD/OyeXjD/1iG41lfysSLI+cdoIegMlYSote+7+cZDEevs3PuNQMcGUI7l0YmiUEnWeRw0J85wREjIs9pZK+guRvn3ZSXWdHaBJ1EW+3SVnZaUB4IRojjdV7CdC0awRIw1DkLI0VgdmA7+d8aSLuCJj7IBEyxKSKcuMqF9dGMeyI2xj31f0AsrSxP2IAWVKzpVtLP2w+uGOY/YapcqcRHIyrwCda3IjuGbGnvwsZrFNQbRa6HhB4BIUfMhZWnMl9d0mAR6ygtdOcHkrvHm1g+OdY7iV2BHaufRQJwryZyT75VtCqED8nIGOQwveazvswSm0jY+7v9q0kF3MSBYvXsJYohc0PCRZTw8obyGg0QnbaleDy/nii5y80IZ5ufDBv2qRi8R0FzVn8yeS8mU4vC0SIvxfeOGACq+8YbNIL9C9RTQm33TSCwYfBdqxBijmKBrETUr6qVD0GlxfVknYrongG4L/TutBX9ALygojh+L67wIDAQABoz8wPTAPBgNVHRMBAf8EBTADAQH/MB0GA1UdDgQWBBQku+ZWAtUZDjabLz2ZakgTvZOHbzALBgNVHQ8EBAMCAYYwDQYJKoZIhvcNAQENBQADggIBAIXODc9wDLAgTBqvBg0EffdkaMsP1udFJHRjXXXa7pncqciwq7HF7EoeUxiANyhwP70qXN4m9e8gfw/HxHILWTy9N2n4+IoYmALXb9GGsiWZqsEwhyvd8paBxgAcJ3V54TsoX849duzgkNknUHz8rpOCnIt5JpCVT7HkBdN+UZiimKfZEvvsnBku/lPhMvCppDzuSxgWLGjSJX3wZp23uSv5Tsa76X4B7WJgFR92YMXf+GzE+YgJ2U6Qmfir2RzBK80ebHdoVcNl/XVBOwEaH3LdHnakDwZwnMdzm3VBd39RjhPhCs65yPXuqLeXWo5p9sHaEfUjGuPqANrId/o4WM8f3XnPox1TeikDXkD1lTskZr6P7BuNJyo3xgnpHO8NKSrujtlfV68LGnz2vvIInv0qBVy+wC31jbNYAXsDAfXyl8snF3Wv8dUndcr6xlwApQVCpVeBjWGTCO4LqpWHBKL2Sfl1kcbHmkwEjerT1Gm1e4/nJjwwPBXwAlUd3Eyf2C7Uour1UGRCWNRSK0+gPqkycQg+GJIv4dUjfJbM8KprMWrKoU7y0H4PcveuYPa40MoE9wsK0qvEAQWt6C8z35Q+a5Fo1wSDLTe+Hkpdkp4ZBoIYC7Q0rD1eBbiMoAziJ5Iu3+TWoutU/Fbis+a+z+xWg0VwY8vhYSNEmFtEgOey</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object Id="XadesObjectId-948a4794-ada5-4059-86c7-d58c0675aa5a"><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Id="QualifyingProperties-01768393-c1b8-4fe8-a16b-b9258ccd5e60" Target="#Signature-a278b16b-6d66-468e-8ac5-7ef3eb5bdb65"><xades:SignedProperties Id="SignedProperties-Signature-a278b16b-6d66-468e-8ac5-7ef3eb5bdb65"><xades:SignedSignatureProperties><xades:SigningTime>2018-07-02T02:59:33Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>lSak0JtweSxXvAxMJ+n5BVlS/kzukrtKBCD8HeZQLQ0=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=CA PERSONA JURIDICA, OU=DGT, O=MINISTERIO DE HACIENDA, C=CR</ds:X509IssuerName><ds:X509SerialNumber>1521651713774</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate><xades:SignaturePolicyIdentifier><xades:SignaturePolicyId><xades:SigPolicyId><xades:Identifier>https://tribunet.hacienda.go.cr/docs/esquemas/2016/v4.1/Resolucion_Comprobantes_Electronicos_DGT-R-48-2016.pdf</xades:Identifier></xades:SigPolicyId><xades:SigPolicyHash><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>NmI5Njk1ZThkNzI0MmIzMGJmZDAyNDc4YjUwNzkzODM2NTBiOWUxNTBkMmI2YjgzYzZjM2I5NTZlNDQ4OWQzMQ==</ds:DigestValue></xades:SigPolicyHash></xades:SignaturePolicyId></xades:SignaturePolicyIdentifier></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#Reference-8c4eb324-fa43-4694-9c09-1f0579946391"><xades:MimeType>application/octet-stream</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature>
+</FacturaElectronica>
